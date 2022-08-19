@@ -15,6 +15,10 @@ spec:
       labels:
         app: sifon
     spec:
+      volumes:
+      - name: vol
+        persistentVolumeClaim:
+          claimName: pvc
       terminationGracePeriodSeconds: 30
       containers:
       - name: sifon
@@ -22,3 +26,6 @@ spec:
         imagePullPolicy: "Always"
         ports:
         - containerPort: 80
+        volumeMounts:
+          - mountPath: "/app/wwwroot/content"
+            name: vol

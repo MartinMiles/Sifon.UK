@@ -1,7 +1,7 @@
-## Sifon.UK site for Sifon tool
+## Sifon.UK website
 
 A lightweight website:
-- seves content from Markdown files (*.md)
+- serves content from Markdown files (*.md)
 - built with .NET 6.0 (ASP.NET)
 - for Linux runtime in Docker
 - runs on Kubernetes

@@ -82,6 +82,7 @@ app.UseDefaultFiles(new DefaultFilesOptions
     DefaultFileNames = new List<string> { "index.md", "index.html" }
 });
 
+app.MapHealthChecks("/healthz");
 
 app.UseHttpsRedirection();
 

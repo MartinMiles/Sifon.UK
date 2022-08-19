@@ -18,7 +18,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: sifon
-        image: martinmiles/Sifon.UK
+        image: martinmiles/sifonuk
         imagePullPolicy: "Always"
         ports:
         - containerPort: 80

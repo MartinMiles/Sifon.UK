@@ -10,7 +10,7 @@ alias sif='kubectl --kubeconfig=vke.yaml -n sifon'
 sif apply -f deployment.yaml
 
 ### run code within pod to test it
-sif exec sifon-6c966445fd-bnmr6 -it /bin/sh
+sif exec sifon-67dccdddd-vknpg -it /bin/sh
 apt-get update; apt-get install curl -y
 apt-get install iputils-ping -y
 curl http://localhost

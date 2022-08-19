@@ -10,8 +10,8 @@ A lightweight website:
 
 ```
 docker login
-docker tag sifon martinmiles/sifon.uk
-docker push martinmiles/sifon.uk
+docker tag sifon martinmiles/sifonuk
+docker push martinmiles/sifonuk
 ```
 
 Alternatively, just use 'Publish' option of Visual Studio 2022 that deploys built image directly to docker hub.

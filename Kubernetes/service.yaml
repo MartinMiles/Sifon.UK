@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: sifon-service
+  namespace: sifon 
+spec:
+  selector:
+    app: sifon
+  ports:
+  - port: 80
+  type: ClusterIP # LoadBalancer # NodePort # 

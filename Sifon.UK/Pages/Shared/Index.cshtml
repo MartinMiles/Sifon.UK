@@ -1,0 +1,49 @@
+﻿@model Westwind.AspNetCore.Markdown.MarkdownModel
+@{ Layout = "_Layout"; }
+@using Westwind.AspNetCore.Markdown
+
+@section headers
+{
+    <style>
+        .hero-text {
+            text-align: center;
+            line-height: 1.8em;
+            font-size: 2.7em;
+            padding: 35px 0 82px;
+            background: black;
+            color: white;
+            font-weight: 500;
+        }
+        @@media (max-width:600px) {
+            .hero-text {
+                font-size: 1.8em;
+            }
+        }
+   
+        .text-primary {
+            font-weight: bold !important;
+            color: khaki;
+            font-size: 1.2em;
+        }    
+    </style>
+}
+
+@section Scripts {
+    <!-- Syntax Highlighting code -->
+    <script src="~/lib/highlightjs/highlight.pack.js"></script>
+    <link href="~/lib/highlightjs/styles/vs2015.css" rel="stylesheet" />
+    <script src="~/lib/highlightjs-badge.js"></script>
+
+    <script>
+        // apply HighlightJS
+        var pres = document.querySelectorAll("pre>code");
+        for (var i = 0; i < pres.length; i++) {
+            hljs.highlightBlock(pres[i]);
+        }
+
+        // https://github.com/RickStrahl/highlightjs-badge
+        window.highlightJsBadge();
+    </script>
+}
+
+@await Markdown.ParseHtmlStringFromFileAsync("~/content/index.md")

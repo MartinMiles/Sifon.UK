@@ -33,7 +33,7 @@ curl https://localhost
 
 
 # On container (codebase) update
-1. `sif delete deployment martin`
+1. `sif delete deployment sifon`
 2. `sif apply -f deployment.yaml`
 
 # On content update

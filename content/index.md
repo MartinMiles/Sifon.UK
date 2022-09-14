@@ -4,7 +4,7 @@
 <link rel="manifest" href="/site.webmanifest">
 
 
-# <img src="content/img/icon.png" alt="Sifon" width="32" height="32" style="position: relative; top: -2px;" /> Sifon
+# <img src="content/img/icon.png" alt="Sifon" width="32" height="32" style="position: relative; top: -4px; left: -5px;" /> Sifon
 
 A must-have tool for any Sitecore developer, to simplify most of your day-to-day DevOps activities
 

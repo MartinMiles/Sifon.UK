@@ -1,5 +1,18 @@
 # Release notes
 
+
+Version **[1.3.4](../download/Sifon_1.3.4.msi "1.3.4")**
+
+- added support for Sitecoef XP 10.3.1
+
+Version **[1.3.3](../download/Sifon_1.3.3.msi "1.3.3")**
+
+- added support for Sitecoef XP 10.3
+- added support for Solr 8.11.2
+- added download plugins for all XP 10.3 resources
+- support for one-click Horizon installation on 10.3
+- verified working well on Windows 11
+
 Version **[1.2.6](../download/Sifon_1.2.6.msi "1.2.6")**
 
 - prerequisites dialog got improved UX - no more confusing checkboxes

@@ -1,6 +1,9 @@
-# Containers in Sifon
+# Containers in Sifon are currently de-scoped
 
-Now Sifon allows doing basics with containers in Sitecore 10.* - in fact, that is just a wrapper over the most of commands and operations. That is especially helpful for the beginners (see below why it is so).
+Apoligies for the inconvenience
+
+
+<!-- Now Sifon allows doing basics with containers in Sitecore 10.* - in fact, that is just a wrapper over the most of commands and operations. That is especially helpful for the beginners (see below why it is so).
 
 <br/>
 
@@ -32,7 +35,7 @@ This is how you can build, run and stop an instance containers with Sifon
 
 ![Running containers environment](../img/ContainersActions.png "Running containers environment")
 
-**Please note:** these commands apply to an environment from a selected containers profile. The very first run will take a while, as container images need to get downloaded to your host machine.
+**Please note:** these commands apply to an environment from a selected containers profile. The very first run will take a while, as container images need to get downloaded to your host machine. -->
 
 <br/>
 

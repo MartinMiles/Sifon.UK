@@ -15,7 +15,7 @@ A must-have tool for any Sitecore developer, to simplify most of your day-to-day
 
 ## Downloads
 
-Use this link to [download](content/download/Sifon_1.3.4.msi "download Sifon") your copy of Sifon. The source code is available at [GitHub](https://github.com/MartinMiles/Sifon "Sifon GitHub repository").
+Use this link to [download](content/download/Sifon_1.3.5.msi "download Sifon") your copy of Sifon. The source code is available at [GitHub](https://github.com/MartinMiles/Sifon "Sifon GitHub repository").
 
 Those prefer installing with Chocolatey pakage manager can do: `choco install sifon`
 
@@ -26,7 +26,7 @@ You can learn what's new at the [Release notes](/content/docs/ReleaseNotes "Rele
 ## Features
 
 - functions with Sitecore versions 9.x and 10.x
-- supports Windows 11 and latest release of XP 10.3
+- supports Windows 11 and latest release of XP 10.3.1
 - offers the best Sitecore installation tool ever: powerfull, intuitive, self-downloading, can install XP into a remote VM over network
 - performs backup, clean, restore operations against selected Sitecore instance out-of-the-box with a nice GUI
 - you can choose the above operations for webroot, xConnect, Identity Server, Horizon and Publishing Service sites (or them all)

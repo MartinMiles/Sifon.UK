@@ -1,5 +1,10 @@
 # Release notes
 
+Version **[1.3.5](../download/Sifon_1.3.5.msi "1.3.5")**
+
+- added better support for XM topology
+- extended and reworked profile (ie. `IsXM` parameter)
+- minor bug fixes and improvements
 
 Version **[1.3.4](../download/Sifon_1.3.4.msi "1.3.4")**
 

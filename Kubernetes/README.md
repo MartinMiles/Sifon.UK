@@ -1,10 +1,10 @@
 # Sifon.UK runs in Kubernetes (HTTPS + CloudFlare)
 
 ## Create namespace:
-`kubectl --kubeconfig=vke.yaml apply -f namespace.yaml`
+`kubectl --kubeconfig=../../vke.yaml apply -f namespace.yaml`
 
 ## Create alias:
-`alias sif='kubectl --kubeconfig=vke.yaml -n sifon'`
+`alias sif='kubectl --kubeconfig=../../vke.yaml -n sifon'`
 
 ## Persistent volume
 
@@ -28,11 +28,15 @@ curl https://localhost
 ## Service
 `sif apply -f service.yaml`
 
+## Create Certificate
+`sif apply -f certificate.yaml`
+
 ## Create Ingress with HTTPS
 `sif apply -f ingress-https.yaml`
 
 
-# On container (codebase) update
+
+# On container (*actual codebase*) update
 1. `sif delete deployment sifon`
 2. `sif apply -f deployment.yaml`
 
@@ -41,7 +45,7 @@ curl https://localhost
 2. navigate into `/mnt/data/sifon`
 3. delete whole content
 4. download updated content, ie. `wget URL/file.zip`
-5. `unzip file.zip`
+5. `unzip file.zip` (*if not available, intstall unzip first*: `sudo apt install unzip`)
 
 
 There is no need to touch service and ingress in either case, they will pick changes automatically
